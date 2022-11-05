@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+
+    <TargetFramework>netstandard2.0</TargetFramework>    
+    
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    
+    <PackageLicenseFile>mit-license.txt</PackageLicenseFile>
+    
+    <Authors>Clint Masden</Authors>
+    <Company>NA</Company>
+    
+    <Product>Tribe Client</Product>
+    <Description>A client for Tribe API / Graph QL.</Description>
+    <PackageTags>Tribe Client API tribe.so</PackageTags>
+    
+    <Version>1.0.2.0</Version>
+    
+    <PackageProjectUrl>https://github.com/clintmasden/tribe.client</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/clintmasden/tribe.client</RepositoryUrl>
+    
+    <PackageReleaseNotes>Public Release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+        <PackageReference Include="GraphQL.Client" Version="5.1.0" />
+    <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="5.1.0" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\mit-license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+</Project>

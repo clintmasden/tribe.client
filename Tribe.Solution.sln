@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tribe.Client", "Tribe.Client\Tribe.Client.csproj", "{1FAE0B36-2158-4477-B738-BA22F4A3F21E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tribe.Tests", "Tribe.Tests\Tribe.Tests.csproj", "{8A70D514-8F41-4E62-8867-02072B59E4F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06C36000-A2C3-4DAA-9B19-B915826DE734}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		mit-license.txt = mit-license.txt
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FAE0B36-2158-4477-B738-BA22F4A3F21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAE0B36-2158-4477-B738-BA22F4A3F21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAE0B36-2158-4477-B738-BA22F4A3F21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAE0B36-2158-4477-B738-BA22F4A3F21E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A70D514-8F41-4E62-8867-02072B59E4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A70D514-8F41-4E62-8867-02072B59E4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A70D514-8F41-4E62-8867-02072B59E4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A70D514-8F41-4E62-8867-02072B59E4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE6B152C-6E55-4F3A-8841-7F090D86F1AB}
+	EndGlobalSection
+EndGlobal
